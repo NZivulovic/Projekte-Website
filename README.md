@@ -2,4 +2,4 @@
 ### https://nzivulovic.github.io/Projekte-Website/
 
 ##
-<img width="2304" height="2828" alt="Bildschirmfoto am 2025-11-29 um 12 46 14-fullpage" src="https://github.com/user-attachments/assets/b9eda2ba-96b5-400c-b96d-cb5b604a8c0e" />
+<img width="2560" height="3323" alt="Bildschirmfoto am 2025-11-29 um 15 22 26-fullpage" src="https://github.com/user-attachments/assets/7584c040-e60a-40f4-989d-3997578d8308" />
