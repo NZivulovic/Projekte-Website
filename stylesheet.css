@@ -1,0 +1,61 @@
+
+/* All */
+
+* {font-family: sans-serif;}
+h5 {font-size: 250%; margin-top: 0px; padding-bottom: 15px; padding-bottom: 2%; }
+h4 {margin-top: 0px;padding-bottom: 7.5px;}
+h3 {margin-bottom: 0px; font-size: 125%;}
+h1 {font-size: 500%; margin-bottom: 0; margin-top: 0; margin-left: 0;}
+pre {margin: 0; padding: 0;}
+video {object-fit: cover; padding-top: 10px; padding-bottom: 2.0%;}
+
+
+
+
+/* Nav buttons */
+
+.dropdownNav{
+    background-color: rgb(187, 187, 187);
+    margin-left: 750px;
+    cursor:pointer;
+    position:absolute;
+    display:inline-block;
+}
+    .dropdownButtonNav{
+        font-size: 24px;
+        padding: 16px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    
+    }
+        .dropdownButtonNav:hover, .dropdownButtonNav:focus{
+            background-color: #d3d3fd;
+        
+        }
+            .dropdownContent{
+                display: none;
+                position: fixed;
+                margin-bottom: 100px;
+                
+            }
+            .show{
+                position: absolute;
+                display: grid;
+                margin-top: 10px;
+                height: 50px;
+                width: 250px;
+                text-indent: -100px;
+                
+                
+                
+            }
+
+
+
+/* Random */
+
+.mainDiv{
+    background-color: rgb(187, 187, 187);
+}
+
+
