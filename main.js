@@ -1,4 +1,5 @@
-const moreNav_1 = document.getElementById("myDropdown")
+
+// Nav Button "Mehr Infos"
 
 function moreNav(){
     document.getElementById("myDropdown").classList.toggle("show");
@@ -16,6 +17,3 @@ window.onclick = function(event){
         }
     }
 }
-
-
-
