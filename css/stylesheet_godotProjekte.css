@@ -28,7 +28,7 @@
 
 body {
     display: block;
-    
+
 
     flex-grow: 1;
 
@@ -40,12 +40,12 @@ body {
 
 /* navBar */
 
-    /* .navDiv {} */
+/* .navDiv {} */
 
 
 .navBarList {
 
-    display:flex;
+    display: flex;
 
 
     text-align: center;
@@ -68,9 +68,9 @@ body {
 
 .navBarProjectsP_1 {
 
-    min-width:min-content;
+    min-width: min-content;
     max-width: 8%;
-    
+
     flex-grow: 1;
 
     border-left: 2px solid rgba(54, 61, 74);
@@ -122,9 +122,13 @@ body {
 
 /* Content - Showcase Video */
 
-.videoProjekt1{
-    
-    display: block;
+.videoProjekt1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+
+
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -132,23 +136,77 @@ body {
     border: 2px solid white;
 }
 
-/* Content - imgGallery */
+/* Header - imgGallery */
 
-.imgGallery{
+.imagesGalleryHeader {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+    color: white;
+
+    justify-content: center;
+
+    padding-top: 2rem;
+
+
 }
-.galleryItem{
-    border: 2px solid white;
-    width: 50%;
+
+
+/* Image Gallery - Div All */
+
+.imgGallery {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+
+    width: 80%;
+
+    outline: solid 1px white;
+
+
+    margin-bottom: 4rem;
+
+    margin-right: 10%;
+    margin-left: 10%;
+
+
+}
+
+/* Image Gallery - Every Image  */
+
+.galleryItem {
+
+    width: 100%;
+
+    display: inline-flex;
+
+
+    justify-content: flex-start;
+
+    overflow: scroll;
+
+
+}
+
+/* Image Gallery - Images */
+.imagesGallery {
+
+
     height: 200px;
-    margin: auto;
-    border-top: 0px;
+    width: 400px;
+
+
+    outline: solid 1px white;
+
 }
-.imagesGallery{
-    border-right: solid 2px white;
-}
-.imagesGallery:hover{
+
+.imagesGallery:hover {
     cursor: pointer;
+    opacity: 0.8;
 }

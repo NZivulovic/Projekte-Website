@@ -10,7 +10,7 @@
 
 
     <link rel="stylesheet" type="text/css" href="../css/stylesheet_godotProjekte.css">
-    
+
 </head>
 
 <body>
@@ -24,28 +24,49 @@
     <!-- navBar -->
     <div class="navDiv">
         <ul class="navBarList">
-            <li type="button" onclick="navBarSelector('projekt1')" class="navBarProjectsP_1" data-target="projekt1">Slot Machine Demo</li>
+            <li type="button" onclick="navBarSelector('projekt1')" class="navBarProjectsP_1" data-target="projekt1">Slot
+                Machine Demo</li>
             <!-- <li type="button" onclick="navBarSelector('projekt2')" class="navBarProjectsP" data-target="projekt2">
                 Projekt 2</li> -->
-            
+
         </ul>
     </div>
     <!-- Projekte Container Whole -->
     <div id="projektContainer">
         <div id="projekt1" class="projektContainer">
-            <h2 class="projekt1Title">Projekt 1: Slot Machine Demo</h2>
-                <div>
-                    <video class="videoProjekt1" src="../videos/Timeline 1.mp4" controls></video>
-                </div>
-                <div class="imgGallery">
-                    <div class="galleryItem">
-                        <img src="../images/Screenshot_1.png" alt="1" width="auto" height="200px" id="image_1" class="imagesGallery" onclick="switchPreview(id)">
-                        <img src="../images/Screenshot_1.png" alt="1" width="auto" height="200px" id="image_2" class="imagesGallery" onclick="switchPreview(id)">
-                    </div>
-                </div>
+            <div>
+                <h2 class="projekt1Title">Projekt 1: Slot Machine Demo</h2>
+            </div>
+            <div>
+                <video id="videoProjekt1" class="videoProjekt1" src="../videos/Timeline 1.mp4" controls></video>
+            </div>
+            <div>
+                <h2 class="imagesGalleryHeader">Image Gallery (Horizontal Scroll)</h2>
+            </div>
         </div>
+        <div class="imgGallery">
+            <div class="galleryItem">
+                <img src="../images/godotProjekte/projekt1/Screenshot_9.png" alt="1" id="image_0" class="imagesGallery"
+                    onclick="switchPreview(id)">
+                <img src="../images/godotProjekte/projekt1/Screenshot_1.png" alt="1" id="image_1" class="imagesGallery"
+                    onclick="switchPreview(id)">
+                <img src="../images/godotProjekte/projekt1/Screenshot_3.png" alt="1" id="image_2" class="imagesGallery"
+                    onclick="switchPreview(id)">
+                <img src="../images/godotProjekte/projekt1/Screenshot_4.png" alt="1" id="image_3" class="imagesGallery"
+                    onclick="switchPreview(id)">
+                <img src="../images/godotProjekte/projekt1/Screenshot_2.png" alt="1" id="image_4" class="imagesGallery"
+                    onclick="switchPreview(id)">
+                <img src="../images/godotProjekte/projekt1/Screenshot_5.png" alt="1" id="image_5" class="imagesGallery"
+                    onclick="switchPreview(id)">
+                <img src="../images/godotProjekte/projekt1/Screenshot_7.png" alt="1" id="image_6" class="imagesGallery"
+                    onclick="switchPreview(id)">
+                <img src="../images/godotProjekte/projekt1/Screenshot_8.png" alt="1" id="image_7" class="imagesGallery"
+                    onclick="switchPreview(id)">
+            </div>
+        </div>
+    </div>
 
-        <!-- <div id="projekt2" class="projektContainer" style="display: none;">
+    <!-- <div id="projekt2" class="projektContainer" style="display: none;">
             <h2 class="projekt2Title">Projekt 2: Test</h2>
         </div> -->
 
